@@ -28,10 +28,11 @@ fn main() {
     let b = get_coefficient("b");
     let c = get_coefficient("c");
 
-    println!("\n The quadratic equation is: {}x² + {}x + {} = 0", a, b, c);
+    println!("The quadratic equation is: {}x² + {}x + {} = 0", a, b, c);
 
     // now lets calculate the discriminant
     let discriminant = (b.powi(2)) - 4.0 * a * c;
+    println!("your discriminant is: {}", discriminant);
 
     // conditioning for the positivity of the discriminant
 
